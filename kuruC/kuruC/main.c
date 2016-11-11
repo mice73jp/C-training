@@ -9,7 +9,11 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
+    
     // insert code here...
+    int left = 10;
+    int right = 3;
+    
     printf("Hello, World!\n");
     printf("Hello");
     printf("World\n");
@@ -27,6 +31,12 @@ int main(int argc, const char * argv[]) {
     printf( "%d\n", 0x5D);
     printf( "%d\n", 023);
     printf( "%d\n", 0x5D + 023 * 3);
+    
+    printf( "%d + %d = %d\n", left, right, left + right);
+    printf( "%d - %d = %d\n", left, right, left - right);
+    printf( "%d * %d = %d\n", left, right, left * right);
+    printf( "%d / %d = %d\n", left, right, left / right);
+    printf( "%d %% %d = %d\n", left, right, left % right);
     
     return 0;
 }
